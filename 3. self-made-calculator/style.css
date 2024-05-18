@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex; /* Make the body a flex container */
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 650px;
+    width: 350px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+.container h2{
+    color: white;
+    margin-top: 3vw;
+    display: flex;
+    width: fit-content;
+}
+.container p{
+    /* color: white; */
+    width: fit-content;
+}
+.top-bar{
+    display: flex;
+    color: yellow;
+    height: 70px;
+}
+.solar-text{
+    display: flex;
+    color: white;
+    margin-bottom: 10px;
+    justify-content: end;
+    height: 10px;
+}
+.solar{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: beige;
+    margin-top: 10px; 
+    margin-left: auto;
+}
+.solar-text{
+    margin-left: auto;
+
+}
+.screen{
+    background-color: rgb(150, 147, 147);
+    height: 100px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+/* .calculator-button {
+    background-color: white;
+    color: salmon;
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+} */
+.button-haru-ko-div {
+    background-color: blueviolet;
+    height: 415px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calculator-button {
+    background-color: white;
+    color: salmon;
+    border: 2px solid red;
+    /* Adjusted width to fit 4 buttons in a row */
+    width: calc(25% - 10px); 
+    height: 50px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.calculator-button:hover {
+    background-color: brown;
+    color: white;
+}
+
+
+.row {
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding: 5px; */
+}
+
+
+
+/* .zero {
+    width: calc(50% - 10px); /* Adjusted width to fit 2 buttons in a row */
+/*} */
+
+
