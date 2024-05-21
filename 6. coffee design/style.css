@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+}
+/*...............................................header...........................................*/
+.header {
+    background-color: #43281C;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    color: #FBECBB;
+    /* font-size: 3vw; *//*in responsive*/
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+.header img {
+    height: 30px;
+    width: 30px;
+}
+
+/*................................container........................................................*/
+.container {
+    width: 100%;
+    padding: 20px;
+    /* background-color: black; */
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 48% 48%;
+    column-gap: 20px;
+    row-gap: 50px;
+}
+
+.left-div {
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 45vw;
+    background-color: #EEE1D5;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+.left-div p{
+    color: #43281C;
+    padding-bottom: 10px;
+}
+
+.right-div-top {
+    /* border: 2px solid red; */
+    height: 145px;
+    width: 50vw;
+    background-color: #EEE1D5;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    justify-content: center;
+    gap: 10px;
+
+}
+.right-div-top p{
+    color: #43281C;
+}
+
+.right-div-bottom {
+    /* border: 2px solid red; */
+    height: 145px;
+    width: 50vw;
+    background-color: #EEE1D5;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    padding-left: 30px;
+    justify-content: center;
+    gap: 10px;
+}
+.right-div-bottom p{
+    color: #43281C;
+}
+
+/*..............................................total....................................*/
+.total {
+    height: 15vh;
+    /* background-color: #EEE1D5; */
+    /* margin: 20px; */
+    border-radius: 10px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.total-item{
+    display: grid;
+    grid-template-areas: 
+    "total-item-title total-item-price";
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30vw;
+    /* padding-bottom: 20px; */
+}
+.total-item-title-total{
+    font-weight: 700;
+}
+.total-item-price-total{
+    font-weight: 700;
+}
+.total-item-title{
+    padding-bottom: 10px;
+}
+
+
+.button-container {
+    background-color: #DEB993;
+    border: none;
+    text-align: center;
+    margin: 50px;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.button-container button {
+    background-color: #DEB993;
+    border: none;
+    color: Black;
+    font-weight: 200;
+    font-size: medium;
+    cursor: pointer;
+}
+
+
+
+/*...................................................................*/
+.right-div-top-content {
+    position: relative;
+    display: inline-block;
+}
+.card-number {
+    position: relative;
+    display: inline-block;
+}
+.cvv {
+    position: relative;
+    display: inline-block;
+}
+
+.example-input {
+    border-color: #43281C;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #EEE1D5;
+    border-radius: 30px;
+    width: 90%;
+    
+}
+.example-input-right-div-top{
+    border-color: #43281C;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #EEE1D5;
+    border-radius: 30px;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+.input-label {
+    background-color: white;
+    color: #43281C;
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0 2px;
+    background-color: #EEE1D5;
+}
+.cvv-input-label{
+    background-color: white;
+    color: #43281C;
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0 2px;
+    background-color: #EEE1D5;
+}
+.cvv-example-input{
+    border-color: #43281C;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #EEE1D5;
+    border-radius: 30px;
+    width: 50%;
+}
+
+
+/*..............items.............................*/
+.item {
+    display: grid;
+    grid-template-areas: 
+    "item-quantity item-title item-price"
+    "item-quantity item-title item-price";
+    grid-template-columns: 1fr 8fr 1fr;
+    row-gap: 10px;
+    font-weight: 600;
+    
+}
+.item-option-list{
+    display: grid;
+    border-bottom: 2px solid #DDB892;
+    list-style: none;
+    margin-bottom: 5px;
+    padding-left: 65px;
+    color: #8b6b4b;
+    font-size: small;
+}
+.butter-class{
+    border-bottom: none;
+}
+
