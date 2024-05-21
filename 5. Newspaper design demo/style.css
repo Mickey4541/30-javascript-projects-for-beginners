@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    /* height: 100%; */
+    width: 100%;
+    padding: 20px;
+    /* border: 2px solid #666; */
+}
+.container{
+    width: 100%;
+    /* background-color: black; */
+}
+/* nav{
+    border: 2px solid #666;
+} */
+
+.header-title{
+    height: 5vw;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-title p{
+    font-size: 3vw;
+    font-weight: 600;
+
+}
+.header{
+    height: 5vw;
+    width: 100%;
+    /* background-color: azure; */
+    border-bottom: 3px solid rgb(97, 95, 95);
+    border-left: 3px solid rgb(97, 95, 95);
+    border-top: 3px solid rgb(97, 95, 95);
+    border-right: 3px solid rgb(97, 95, 95);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+    font-family: 'futura';
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;/*header ko border ra section ko border touch proper vayo yo garera.*/
+}
+.header a{
+    text-decoration: none;
+    color: #666;
+}
+.header-title p{
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-size: 4vw;
+    font-style: normal;
+}
+section{
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid rgb(97, 95, 95);
+    border-right: 3px solid rgb(97, 95, 95);
+    /* border-top: 3px solid rgb(97, 95, 95); */
+    width: 100%;
+}
+section p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+section h2{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #666;
+}
+.student-learn-html{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    /* border: 3px solid rgb(97, 95, 95); */
+    border-left: 3px solid rgb(97, 95, 95);
+    border-right: 3px solid rgb(97, 95, 95);
+    text-align: center;
+    padding: 10px;
+    
+}
+.Breaking{
+    height: 400px;
+    width: 40%;
+    /* background-color: aqua; */
+    /* border: 3px solid rgb(97, 95, 95); */
+    border-right: 3px solid rgb(97, 95, 95);
+    text-align: center;
+    padding: 10px;
+
+}
+.Breaking img{
+    height: 50%;
+    width: 50%;
+}
+.css{
+    height: 400px;
+    width: 30%;
+    /* background-color:  lightblue; */
+    /* border: 3px solid rgb(97, 95, 95); */
+    text-align: center;
+    padding: 10px;
+}
+.Between-the-Angle-Brackets{
+    height: 370px;
+    width: 30%;
+    background-color: white;
+    /* border: 3px solid rgb(97, 95, 95); */
+    border-left: 3px solid rgb(97, 95, 95);
+    border-right: 3px solid rgb(97, 95, 95);
+    text-align: center;
+    padding: 10px;
+}
+.Scientist{
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+}
